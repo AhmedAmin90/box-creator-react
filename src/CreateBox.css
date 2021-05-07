@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+input{
+    height: 40px;
+    width: 200px;
+    align-self: center;
+    margin: 5px;
+}
+
+.CreateBox-btn {
+    width: 200px;
+    height: 40px;
+    background-color: chocolate;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.CreateBox-warning{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline-flex;
+}

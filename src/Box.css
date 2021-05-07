@@ -1,0 +1,16 @@
+.Box {
+    display: flex;
+}
+
+.Box-div{
+    margin: 5px;
+}
+
+.Box-delete-btn{
+    height: 25px;
+    width: 25px;
+    color: red;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
